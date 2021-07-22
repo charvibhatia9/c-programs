@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{ float degree,radian;
+  printf("please enter angle in degree: ");
+  scanf("%f",&degree);
+  radian=degree*(3.14/180);
+  printf("The angle in radians is: %f",radian);
+    return 0;
+}
